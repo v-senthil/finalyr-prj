@@ -1,0 +1,282 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home page
+{% endblock title %}
+
+
+{% block style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}" />
+
+{% endblock style %}
+
+
+
+{% block content %}
+
+<section id="one">
+    <div class="inner">
+        <header>
+            <h2>About Project</h2>
+        </header>
+        <p style="color: rgb(168, 168, 168)">
+            Crowd management is the organised and substantiated planning and the direction given to the orderly progress of events where large groups of people gather together. As a part of crowd management, measures can be taken to direct or limit the behaviour of groups of people.
+        </p> <br>
+        <p style="color: rgb(168, 168, 168)">
+            A fully automated System built over the existing camera system in auditoriums, conference halls, large meeting place or any place with multiple exits and number of people attending the events. This new system play a vital role in Crowd Management in the exits, Mask Detection, Number of people going in and out the place, Emotion Analysis, and Social Distancing System
+        <ul class="actions">
+            <!-- <li><a href="#" class="button alt">Learn More</a></li> -->
+        </ul>
+    </div>
+</section>
+
+<!-- Two -->
+<section id="two">
+    <div class="inner">
+        <article>
+            <div class="content">
+                <header>
+                    <h3>Dashboard</h3>
+                </header>
+                <div class="image fit">
+                    <img src="static/image/dashboard.png" alt="" />
+                </div>
+                <p>
+                    Responsive Dashboard which can not be obtained in any online Dashboard Systems.
+                    Simple, Elegant, and Precise.
+                </p>
+            </div>
+        </article>
+        <article class="alt">
+            <div class="content">
+                <header>
+                    <h3>Crowd Management System</h3>
+                </header>
+                <div class="image fit">
+                    <img src="static/image/crowd.jpg" alt="" />
+                </div>
+                <p>
+                    Over 1000 people attend a normal event but Managing the crowd is a big task. Our system makes it easy and simple.
+                </p>
+            </div>
+        </article>
+        <article class="alt">
+            <div class="content">
+                <header>
+                    <h3>Mask Detection System</h3>
+                </header>
+                <div class="image fit">
+                    <img src="static/image/mask-detect.jpg" alt="" />
+                </div>
+                <p>
+                    As Covid has taken a lot of people lifes, and is spreading in a rapid speed, masks have become a part of our lives now.
+                </p>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section id="two">
+    <div class="inner">
+        <article>
+            <div class="content">
+                <header>
+                    <h3> People In and Out </h3>
+                </header>
+                <div class="image fit">
+                    <img src="static/image/people-in-out.jpg" alt="" />
+                </div>
+                <p>
+                    Number of people attending the event could vary every time. Even if people buy tickets, some would fail to attend the events. Count people in and out the place would give the exact count.
+                </p>
+                <ul class="actions">
+                    <!-- <li><a href="#" class="button alt">Learn More</a></li> -->
+                </ul>
+            </div>
+        </article>
+        <article>
+            <div class="content">
+                <header>
+                    <h3>Emotion Analysis</h3>
+                </header>
+                <div class="image fit">
+                    <img src="static/image/emotion-analysis.jpg" alt="" />
+                </div>
+                <p>
+                    People can give feedbacks in a form which who knows is correct. Live Emotion Analysis during the event will give more precise feedback of that specific event.
+                </p>
+                <ul class="actions">
+                    <!-- <li><a href="#" class="button alt">Learn More</a></li> -->
+                </ul>
+            </div>
+        </article>
+        <article>
+            <div class="content">
+                <header>
+                    <h3>Social Distancing</h3>
+                </header>
+                <div class="image fit">
+                    <img src="static/image/social-distance.jpg" alt="" />
+                </div>
+                <p>
+                    COVID 19, has affected a lot of lifes. Social Distancing has become a regular practice in important places in our world right now. Even though it's new normal!
+                </p>
+                <ul class="actions">
+                    <!-- <li><a href="#" class="button alt">Learn More</a></li> -->
+                </ul>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section id="two">
+    <div class="inner">
+        <article>
+            <div class="content">
+                <header>
+                    <h3>Live-Stream</h3>
+                </header>
+                <div class="image fit">
+                    <img src="static/image/live.jpeg" alt="" />
+                </div>
+                <p>
+                    This whole System is built over the existing camera system in that specific event place. Live Streaming of all cameras which can be accessed all over the world is possible with this system.
+                </p>
+                <ul class="actions">
+                    <!-- <li><a href="#" class="button alt">Learn More</a></li> -->
+                </ul>
+            </div>
+        </article>
+        <article>
+            <div class="content">
+                <header>
+                    <h3>Reports</h3>
+                </header>
+                <div class="image fit">
+                    <img src="static/image/reports.jpeg" alt="" />
+                </div>
+                <p>
+                    All the data is stored in Database, which then can be downloaded
+                    as Excel and CSV format for further analysis.
+                </p>
+                <ul class="actions">
+                    <!-- <li><a href="#" class="button alt">Learn More</a></li> -->
+                </ul>
+            </div>
+        </article>
+        <article>
+            <div class="content">
+                <header>
+                    <h3>Notification</h3>
+                </header>
+                <div class="image fit">
+                    <img src="static/image/notification.jpeg" alt="" />
+                </div>
+                <p>
+                    If there is any danger like no masks or people are overcrowded  or no social distance is maintained, the user will
+                    receive a message and an Email automatically (or) manually.
+                </p>
+                <ul class="actions">
+                    <!-- <li><a href="#" class="button alt">Learn More</a></li> -->
+                </ul>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section id="two">
+    <div class="inner">
+        <article>
+            <div class="content">
+                <header>
+                    <h3> File Storage </h3>
+                </header>
+                <div class="image fit">
+                    <img src="static/image/storage.png" alt="" />
+                </div>
+                <p>
+                    If there is any data or files to be uploaded to the cloud or the server side, our system allows that too.
+                </p>
+                <ul class="actions">
+                    <!-- <li><a href="#" class="button alt">Learn More</a></li> -->
+                </ul>
+            </div>
+        </article>
+
+        <article>
+            <div class="content">
+                <header>
+                    <h3>Documentation</h3>
+                </header>
+                <div class="image fit">
+                    <img src="static/image/history.jpeg" alt="" />
+                </div>
+                <p>
+                    A full fledged Documentation along with API docs is documented.
+                </p>
+                <ul class="actions">
+                    <!-- <li><a href="#" class="button alt">Learn More</a></li> -->
+                </ul>
+            </div>
+        </article>
+
+        <article>
+            <div class="content">
+                <header>
+                    <h3>API Calls</h3>
+                </header>
+                <div class="image fit">
+                    <img src="static/image/api-call.png" alt="" />
+                </div>
+                <p>
+                    As this system is Open-Source, people can use our API's to obtain only a certain amount of data using our algorithms.
+                </p>
+                <ul class="actions">
+                    <!-- <li><a href="#" class="button alt">Learn More</a></li> -->
+                </ul>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- Footer -->
+<section id="footer">
+    <div class="inner">
+        <header>
+            <h2>Team</h2>
+        </header>
+        <div class="row">
+            <div class="column">
+                <img src="static/image/senthil1.jpeg" width="150" height="220" alt="" />
+                <br />
+                <h5>Senthil Pitchappan V</h5>
+                <p>+919481119745 <br />senthilvalliappan99@gmail.com</p>
+            </div>
+
+            <div class="column">
+                <img src="static/image/senthil.jpeg" width="150" height="220" alt="" />
+                <br />
+                <h5>Shree Harish Rajan A R</h5>
+                <p>+919481119745 <br />senthilvalliappan99@gmail.com</p>
+            </div>
+            <div class="column">
+                <img src="static/image/senthil.jpeg" width="150" height="220" alt="" />
+                <br />
+                <h5>Sherwin Joshva V</h5>
+                <p>+919481119745 <br />senthilvalliappan99@gmail.com</p>
+            </div>
+        </div>
+        <br /><br /><br />
+        <!-- Copyright -->
+        <!-- <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="https://senthil-v.wixsite.com/portfolio">
+          Senthil Pitchappan V</a
+        >
+      </div> -->
+        <!-- Copyright -->
+    </div>
+</section>
+
+
+{% endblock content %}
